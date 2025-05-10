@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import "../styles/Snapshot.css";
 
-const Navbar = ({ heroRef }) => {
+const Snapshot = ({ heroRef }) => {
   return (
     <div>
       <h1 id="sectionTitle">Glen Group Of Companies</h1>
@@ -15,4 +15,4 @@ const Navbar = ({ heroRef }) => {
   );
 };
 
-export default Navbar;
+export default Snapshot;
