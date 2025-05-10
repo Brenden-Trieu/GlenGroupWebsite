@@ -6,8 +6,6 @@ import InfoTabs from "./components/InfoTabs.jsx";
 import Footer from "./components/Footer.jsx";
 import "./styles/App.css";
 import { ChakraProvider } from '@chakra-ui/react'
-// https://glengroup.ca/
-// https://glengroup.ca/about/
 
 function App() {
   const heroRef = useRef(null);

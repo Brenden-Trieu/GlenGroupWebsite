@@ -1,5 +1,6 @@
-import { useEffect, useState, useRef } from "react";
-import "../styles/Navbar.css"; // Optional: Create this if you want scoped styles
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import "../styles/Navbar.css";
 
 const Navbar = ({ heroRef }) => {
   const [isSticky, setIsSticky] = useState(false);
@@ -10,20 +11,20 @@ const Navbar = ({ heroRef }) => {
       { rootMargin: "-1px 0px 0px 0px" }
     );
 
-    if (heroRef.current) {
+    if (heroRef?.current) {
       observer.observe(heroRef.current);
     }
 
     return () => {
-      if (heroRef.current) observer.unobserve(heroRef.current);
+      if (heroRef?.current) observer.unobserve(heroRef.current);
     };
   }, [heroRef]);
 
   return (
     <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li>About Us</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
       </ul>
     </nav>
   );

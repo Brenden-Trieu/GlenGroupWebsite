@@ -21,7 +21,7 @@ export default function Footer() {
           objectFit="contain"
         />
         <Stack direction="row" spacing={6}>
-          <Link href="/Home">Home</Link>
+          <Link href="/">Home</Link>
           <Link href="/About">About Us</Link>
         </Stack>
       </Flex>
