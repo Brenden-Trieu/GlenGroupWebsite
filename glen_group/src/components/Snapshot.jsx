@@ -5,10 +5,9 @@ const Navbar = ({ heroRef }) => {
   return (
     <div>
       <h1 id="sectionTitle">Glen Group Of Companies</h1>
-      <section>
-        <h3>Glen Group Of Companies - A Multi-Faceted Company</h3>
+      <section id="snapshotContent">
         <p>
-          Glen Group is a multi-faceted company that provides extraordinary services to cater to all your needs. Our team of experts works diligently to ensure success and customer satisfaction.
+          Glen Group is a trusted, multi-disciplinary contracting firm based in the Lower Mainland, offering tailored solutions in security, real estate, recruitment, childcare, traffic management, and home renovations — all guided by our core values of safety, integrity, and social responsibility.
         </p>
       </section>
     </div>

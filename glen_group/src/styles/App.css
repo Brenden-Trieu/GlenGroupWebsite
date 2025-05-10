@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 95vh; /* full viewport height */
+  height: 100vh; /* full viewport height */
   overflow: hidden;
 }
 
@@ -15,5 +15,5 @@
 }
 
 .content {
-  margin-top: 60px;
+  margin-top: 30px;
 }

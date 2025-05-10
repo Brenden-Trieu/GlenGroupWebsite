@@ -17,8 +17,8 @@ function App() {
             <source src="https://glengroup.ca/wp-content/uploads/2023/12/Glen-Group-Final-Video.mp4" type="video/mp4" />
             <source src="movie.ogg" type="video/ogg" />
           </video>
+          <Navbar heroRef={heroRef} />
         </section>
-        <Navbar heroRef={heroRef} />
         <section className="content">
           <Snapshot />
         </section>

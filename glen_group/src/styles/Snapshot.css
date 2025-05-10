@@ -1,4 +1,12 @@
 #sectionTitle {
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+#snapshotContent {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
 }
