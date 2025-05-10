@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Box, Flex } from "@chakra-ui/react";
-import CarouselCard from "./carouselCard"; // Import the card component
+import CarouselCard from "./CarouselCard"; // Import the card component
 
 const Carousel = () => {
   const scrollRef = useRef(null);

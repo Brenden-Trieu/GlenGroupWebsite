@@ -1,7 +1,9 @@
 import { useRef } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Snapshot from "./components/Snapshot.jsx";
-import Carousel from "./components/companyCarousel.jsx"
+import Carousel from "./components/CompanyCarousel.jsx";
+import InfoTabs from "./components/InfoTabs.jsx";
+import Footer from "./components/Footer.jsx";
 import "./styles/App.css";
 import { ChakraProvider } from '@chakra-ui/react'
 // https://glengroup.ca/
@@ -24,6 +26,12 @@ function App() {
       </section>
       <section className="companySlides">
         <Carousel />
+      </section>
+      <section className="companyTabs">
+        <InfoTabs />
+      </section>
+      <section className="footer">
+        <Footer />
       </section>
     </ChakraProvider>
   );

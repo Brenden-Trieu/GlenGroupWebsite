@@ -48,7 +48,7 @@ const CarouselCard = ({ title, description, image, buttonText, link }) => {
         </Text>
         <Spacer />
         <ChakraLink href={link} isExternal w="full" mt={3}>
-          <Button size="sm" colorScheme="teal" w="full">
+          <Button size="sm" colorScheme="green" w="full">
             {buttonText}
           </Button>
         </ChakraLink>
