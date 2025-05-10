@@ -3,7 +3,7 @@ import "../styles/Snapshot.css";
 
 const Snapshot = ({ heroRef }) => {
   return (
-    <div>
+    <div id="snapshotContainer">
       <h1 id="sectionTitle">Glen Group Of Companies</h1>
       <section id="snapshotContent">
         <p>
@@ -11,7 +11,6 @@ const Snapshot = ({ heroRef }) => {
         </p>
       </section>
     </div>
-    
   );
 };
 

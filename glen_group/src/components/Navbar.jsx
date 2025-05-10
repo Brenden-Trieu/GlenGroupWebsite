@@ -22,7 +22,7 @@ const Navbar = ({ heroRef }) => {
   return (
     <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
       <ul>
-        <li>Home</li>
+        <li><a href="#">Home</a></li>
         <li>About Us</li>
       </ul>
     </nav>
