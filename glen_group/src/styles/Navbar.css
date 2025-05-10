@@ -1,0 +1,38 @@
+/* #6bb544, #b5446b, #b56844, #6844b5, and #2e2e2e */
+.navbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 999;
+  background-color: #6bb544;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navbar li:hover {
+  color: #0077cc;
+}
