@@ -1,0 +1,20 @@
+.team-culture-section {
+  background-image: url('https://glengroup.ca/wp-content/uploads/2023/06/Untitled-design.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.team-culture-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* dark overlay for contrast */
+  z-index: 0;
+}
+
+.team-culture-section > * {
+  position: relative;
+  z-index: 1;
+}

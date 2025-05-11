@@ -1,0 +1,16 @@
+#nav-general {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #4CAF50, #6bb544);
+}
+
+#nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.nav-general-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}

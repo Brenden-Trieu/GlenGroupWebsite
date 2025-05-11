@@ -1,0 +1,26 @@
+.hero-splash {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4CAF50, #6bb544);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-splash h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero-splash p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

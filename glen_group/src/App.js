@@ -5,7 +5,7 @@ import Carousel from "./components/CompanyCarousel.jsx";
 import InfoTabs from "./components/InfoTabs.jsx";
 import Footer from "./components/Footer.jsx";
 import "./styles/App.css";
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   const heroRef = useRef(null);
